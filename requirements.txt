@@ -1,0 +1,5 @@
+assemblyai
+pydub
+openai
+gradio
+anthropic
