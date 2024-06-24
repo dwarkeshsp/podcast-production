@@ -19,7 +19,7 @@ Guest Name - Title
 
 Make it sexy! Enticing! No boilerplate!!
 
-Don't output anything but the suggested podcast title.
+Don't output anything but the suggested podcast title. Don't use hashtags or Emojis. Titles should be around 80 characters long. The best titles take a number of ideas from the episode
 
 Here are some examples of previous podcast episode titles:
 
@@ -33,10 +33,13 @@ Shane Legg (DeepMind Founder) - 2028 AGI, New Architectures, Aligning Superhuman
 Grant Sanderson (3Blue1Brown) - Past, Present, & Future of Mathematics
 Sarah C. M. Paine - WW2, Taiwan, Ukraine, & Maritime vs Continental Powers
 Dario Amodei (Anthropic CEO) - Scaling, Alignment, & AI Progress
+Francois Chollet - LLMs won’t lead to AGI - $1,000,000 Prize to find true solution
+Leopold Aschenbrenner - 2027 AGI, China/US Super-Intelligence Race, & The Return of History
+John Schulman (OpenAI Cofounder) - Reasoning, RLHF, & Plan for 2027 AGI
 
 Come up with a title for the following transcript using guidance above.
 
-Come up 5-10 titles, each on a new line, so I can select the best one.
+Come up 10 titles, each on a new line, so I can select the best one.
 """
 
 DEFAULT_CLIP_PROMPT = """
