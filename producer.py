@@ -40,10 +40,19 @@ John Schulman (OpenAI Cofounder) - Reasoning, RLHF, & Plan for 2027 AGI
 Come up with a title for the following transcript using guidance above.
 
 Come up 10 titles, each on a new line, so I can select the best one.
+Titles:
 """
 
 DEFAULT_CLIP_PROMPT = """
-TODO
+Suggest some best portions of these episodes to make clips of.
+Format this as "Aprox Timestamp: ____ - ____ || Title: "
+
+Clips should be the most intriguing and critical parts of the episode. They should start right at the action and end once the topic has been resolved. They should be
+2-10 minutes in length. Good clips often feature debate, appealing rhetoric, core ideas, intresting stories, or counterintuitve facts.
+
+Titles should be your 2-10 word description of what is in the clip. e.g: AGI Timelines debate, Lee Kuan Yu's best choices, Why LLMs are enough for AGI, etc.
+
+Example Output: Aprox Timestamp: 1:10 - 5:12 || Title: The Million Dollar Prize for AGI
 """
 
 
